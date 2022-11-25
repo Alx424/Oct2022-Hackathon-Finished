@@ -5,27 +5,10 @@
     </head>
     <body>
         <script type="application/javascript">
-
-            function resizeIFrameToFitContent( iFrame ) {
-            
-                iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-                iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
-            }
-            
-            window.addEventListener('DOMContentLoaded', function(e) {
-            
-                var iFrame = document.getElementById( 'iFrame1' );
-                resizeIFrameToFitContent( iFrame );
-            
-                // or, to resize all iframes:
-                var iframes = document.querySelectorAll("iframe");
-                for( var i = 0; i < iframes.length; i++) {
-                    resizeIFrameToFitContent( iframes[i] );
-                }
-            } );
+            window.location.href = "https://editor.p5js.org/Alx424/full/cj0oxYxWv";
             document.getElementById("iFrame1").width = Math.floor(690*(window.innerHeight/1366));
-            document.getElementById("iFrame1").height = Math.floor(635*(window.innerWidth/1366));
+            document.getElementById("iFrame1").height = Math.floor(600*(window.innerWidth/1366));
             </script>
-        <iframe src="https://editor.p5js.org/Alx424/full/cj0oxYxWv" width=690 height=635 id="iFrame1"></iframe>
+        <iframe src="https://editor.p5js.org/Alx424/full/cj0oxYxWv" width=1300 height=590 id="iFrame1"></iframe>
     </body>
 </html>
